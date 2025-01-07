@@ -1,0 +1,23 @@
+
+:root{
+  --secondary-calor :rgb(241 241 240);
+}
+*{
+  direction: rtl;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+  transition: background-color 0.3s ease;
+}
+.light-mode{
+  background-color:#F3F4ED;
+  color: #2C3E50 !important;
+  min-height: 100vh !important;
+}
+
+.dark-mode{
+  background-color: #1E1E2F;
+  color: #EAEAEA !important;
+  min-height: 100vh !important;
+}
